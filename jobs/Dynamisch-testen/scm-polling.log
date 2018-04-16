@@ -1,0 +1,10 @@
+Started on Apr 16, 2018 5:49:43 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision fa87cd15ac96534094622ac42ca50d7ed42ff417 (refs/remotes/origin/master)
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git ls-remote -h https://github.com/cgeenen/sop.git # timeout=10
+Found 1 remote heads on https://github.com/cgeenen/sop.git
+[poll] Latest remote head revision on refs/heads/master is: fa87cd15ac96534094622ac42ca50d7ed42ff417 - already built by 20
+Done. Took 1.5 sec
+No changes

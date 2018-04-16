@@ -1,0 +1,98 @@
+[workspace] Running shell script
++ mvn sonar:sonar -Dsonar.host.url=http://10.0.2.15:32788
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building sop 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.4.0.905:sonar (default-cli) @ sop ---
+[INFO] User cache: /var/jenkins_home/.sonar/cache
+[INFO] SonarQube version: 6.3.1
+[INFO] Default locale: "en", source code encoding: "UTF-8"
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=436ms
+[INFO] User cache: /var/jenkins_home/.sonar/cache
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=28ms
+[INFO] Process project properties
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=622ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=165ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=2496ms
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=272ms
+[INFO] Publish mode
+[INFO] Project key: com.fontys:sop
+[INFO] -------------  Scan sop
+[INFO] Load server rules
+[INFO] Load server rules (done) | time=607ms
+[INFO] Initializer GenericCoverageSensor
+[INFO] Initializer GenericCoverageSensor (done) | time=4ms
+[INFO] Base dir: /var/jenkins_home/jobs/Test/workspace
+[INFO] Working dir: /var/jenkins_home/jobs/Test/workspace/target/sonar
+[INFO] Source paths: src/main/webapp, pom.xml, src/main/java
+[INFO] Test paths: src/test/java
+[INFO] Source encoding: UTF-8, default locale: en
+[INFO] Index files
+[INFO] 5 files indexed
+[INFO] Quality profile for java: Sonar way
+[INFO] Sensor JavaSquidSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 7
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=62ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=1ms
+[INFO] Java Main Files AST scan
+[INFO] 1 source files to be analyzed
+[INFO] 1/1 source files have been analyzed
+[INFO] Java Main Files AST scan (done) | time=2908ms
+[INFO] Java Test Files AST scan
+[INFO] 1 source files to be analyzed
+[INFO] 1/1 source files have been analyzed
+[INFO] Java Test Files AST scan (done) | time=452ms
+[INFO] Sensor JavaSquidSensor [java] (done) | time=6685ms
+[INFO] Sensor NoSonar Sensor [php]
+[INFO] Sensor NoSonar Sensor [php] (done) | time=0ms
+[INFO] Sensor Coverage Report Import [csharp]
+[INFO] Sensor Coverage Report Import [csharp] (done) | time=8ms
+[INFO] Sensor Coverage Report Import [csharp]
+[INFO] Sensor Coverage Report Import [csharp] (done) | time=0ms
+[INFO] Sensor Unit Test Results Import [csharp]
+[INFO] Sensor Unit Test Results Import [csharp] (done) | time=0ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing /var/jenkins_home/jobs/Test/workspace/target/surefire-reports
+[INFO] Sensor SurefireSensor [java] (done) | time=341ms
+[INFO] Sensor JaCoCoSensor [java]
+[INFO] Sensor JaCoCoSensor [java] (done) | time=1ms
+[INFO] Sensor XmlFileSensor [java]
+[INFO] 2 source files to be analyzed
+[INFO] 2/2 source files have been analyzed
+[INFO] Sensor XmlFileSensor [java] (done) | time=1552ms
+[INFO] Sensor Analyzer for "php.ini" files [php]
+[INFO] Sensor Analyzer for "php.ini" files [php] (done) | time=14ms
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=106ms
+[INFO] Sensor Code Colorizer Sensor
+[INFO] Sensor Code Colorizer Sensor (done) | time=1ms
+[INFO] Sensor CPD Block Indexer
+[INFO] org.sonar.scanner.cpd.deprecated.JavaCpdBlockIndexer@379b4e86 is used for java
+[INFO] Sensor CPD Block Indexer (done) | time=45ms
+[INFO] Calculating CPD for 1 files
+[INFO] CPD calculation finished
+[INFO] Analysis report generated in 226ms, dir size=26 KB
+[INFO] Analysis reports compressed in 46ms, zip size=10 KB
+[INFO] Analysis report uploaded in 87ms
+[INFO] ANALYSIS SUCCESSFUL, you can browse http://10.0.2.15:32788/dashboard/index/com.fontys:sop
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at http://10.0.2.15:32788/api/ce/task?id=AWKmM81chug19eLcq4k5
+[INFO] Task total time: 24.239 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 34.224 s
+[INFO] Finished at: 2018-04-08T17:00:36Z
+[INFO] Final Memory: 16M/258M
+[INFO] ------------------------------------------------------------------------

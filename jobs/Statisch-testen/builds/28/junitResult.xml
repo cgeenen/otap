@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result plugin="junit@1.24">
+  <suites>
+    <suite>
+      <file>/var/jenkins_home/jobs/Statisch-testen/workspace/target/surefire-reports/TEST-com.fontys.sop.textTest.xml</file>
+      <name>com.fontys.sop.textTest</name>
+      <duration>2.244</duration>
+      <time>2.244</time>
+      <nodeId>39</nodeId>
+      <enclosingBlocks>
+        <string>23</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Test and SonarQube parallel</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>2.243</duration>
+          <className>com.fontys.sop.textTest</className>
+          <testName>testGetText</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>com.fontys.sop.textTest</className>
+          <testName>testSetText</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>2.244</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

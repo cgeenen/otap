@@ -1,0 +1,76 @@
++ mvn sonar:sonar -Dsonar.host.url=http://10.0.2.15:32786
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building sop 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.4.0.905:sonar (default-cli) @ sop ---
+[INFO] User cache: /var/jenkins_home/.sonar/cache
+[INFO] SonarQube version: 6.3.1
+[INFO] Default locale: "en", source code encoding: "UTF-8"
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=1625ms
+[INFO] User cache: /var/jenkins_home/.sonar/cache
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=145ms
+[INFO] Process project properties
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=1013ms
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=221ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=6032ms
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=1391ms
+[INFO] Publish mode
+[INFO] Project key: com.fontys:sop
+[INFO] -------------  Scan sop
+[INFO] Load server rules
+[INFO] Load server rules (done) | time=897ms
+[INFO] Initializer GenericCoverageSensor
+[INFO] Initializer GenericCoverageSensor (done) | time=0ms
+[INFO] Base dir: /var/jenkins_home/jobs/Test/workspace
+[INFO] Working dir: /var/jenkins_home/jobs/Test/workspace/target/sonar
+[INFO] Source paths: src/main/webapp, pom.xml, src/main/java
+[INFO] Test paths: src/test/java
+[INFO] Source encoding: UTF-8, default locale: en
+[INFO] Index files
+[INFO] 5 files indexed
+[INFO] Quality profile for java: Sonar way
+[INFO] Sensor JavaSquidSensor [java]
+[INFO] Configured Java source version (sonar.java.source): 7
+[INFO] JavaClasspath initialization
+[INFO] JavaClasspath initialization (done) | time=159ms
+[INFO] JavaTestClasspath initialization
+[INFO] JavaTestClasspath initialization (done) | time=1ms
+[INFO] Java Main Files AST scan
+[INFO] 1 source files to be analyzed
+[INFO] Java Main Files AST scan (done) | time=4493ms
+[INFO] 1/1 source files have been analyzed
+[INFO] Java Test Files AST scan
+[INFO] 1 source files to be analyzed
+[INFO] Java Test Files AST scan (done) | time=1989ms
+[INFO] Sensor JavaSquidSensor [java] (done) | time=9630ms
+[INFO] Sensor NoSonar Sensor [php]
+[INFO] Sensor NoSonar Sensor [php] (done) | time=0ms
+[INFO] Sensor Coverage Report Import [csharp]
+[INFO] 1/1 source files have been analyzed
+[INFO] Sensor Coverage Report Import [csharp] (done) | time=3ms
+[INFO] Sensor Coverage Report Import [csharp]
+[INFO] Sensor Coverage Report Import [csharp] (done) | time=1ms
+[INFO] Sensor Unit Test Results Import [csharp]
+[INFO] Sensor Unit Test Results Import [csharp] (done) | time=0ms
+[INFO] Sensor SurefireSensor [java]
+[INFO] parsing /var/jenkins_home/jobs/Test/workspace/target/surefire-reports
+[INFO] Sensor SurefireSensor [java] (done) | time=3198ms
+[INFO] Sensor JaCoCoSensor [java]
+[INFO] Sensor JaCoCoSensor [java] (done) | time=4ms
+[INFO] Sensor XmlFileSensor [java]
+[INFO] 2 source files to be analyzed
+[INFO] 0/2 files analyzed, current file: /var/jenkins_home/jobs/Test/workspace/pom.xml
+[INFO] 0/2 files analyzed, current file: /var/jenkins_home/jobs/Test/workspace/pom.xml
+[INFO] 0/2 files analyzed, current file: /var/jenkins_home/jobs/Test/workspace/pom.xml
+[INFO] 0/2 files analyzed, current file: /var/jenkins_home/jobs/Test/workspace/pom.xml
+[INFO] 0/2 files analyzed, current file: /var/jenkins_home/jobs/Test/workspace/pom.xml
+[INFO] 0/2 files analyzed, current file: /var/jenkins_home/jobs/Test/workspace/pom.xml

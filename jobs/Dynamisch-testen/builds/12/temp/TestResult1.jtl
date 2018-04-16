@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="234" it="0" lt="210" ct="140" ts="1523208757100" s="true" lb="HTTP Request" rc="200" rm="" tn="Thread Group 1-1" dt="text" by="527" sby="261" ng="1" na="1">
+  <httpSample t="210" it="0" lt="210" ct="140" ts="1523208757100" s="true" lb="http://10.0.2.15:8888/OntwikkelSop" rc="302" rm="" tn="Thread Group 1-1" dt="" by="113" sby="130" ng="1" na="1"/>
+  <httpSample t="22" it="0" lt="22" ct="0" ts="1523208757312" s="true" lb="http://10.0.2.15:8888/OntwikkelSop/" rc="200" rm="" tn="Thread Group 1-1" dt="text" by="414" sby="131" ng="1" na="1"/>
+</httpSample>
+
+</testResults>

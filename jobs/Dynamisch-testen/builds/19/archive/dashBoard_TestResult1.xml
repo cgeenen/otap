@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<results>
+<absoluteDefinition>
+	<unstable>-1</unstable>
+	<failed>-1</failed>
+	<calculated>15.781</calculated>
+</absoluteDefinition>
+<average>
+	<HTTP Request>
+		<currentBuildAvg>348</currentBuildAvg>
+	</HTTP Request>
+</average>
+<median>
+	<HTTP Request>
+		<currentBuildMed>67</currentBuildMed>
+	</HTTP Request>
+</median>
+<percentile>
+	<HTTP Request>
+		<currentBuild90Line>537</currentBuild90Line>
+	</HTTP Request>
+</percentile>
+</results>

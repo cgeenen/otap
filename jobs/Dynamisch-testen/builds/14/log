@@ -1,0 +1,34 @@
+Started by an SCM change
+Started by an SCM change
+Building in workspace /var/jenkins_home/jobs/Dynamisch-testen/workspace
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/cgeenen/sop.git # timeout=10
+Fetching upstream changes from https://github.com/cgeenen/sop.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress https://github.com/cgeenen/sop.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision fa87cd15ac96534094622ac42ca50d7ed42ff417 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fa87cd15ac96534094622ac42ca50d7ed42ff417
+Commit message: "Merge origin/master"
+ > git rev-list --no-walk 7b7e278b521d8d210ff632e8bd62c722020e17f5 # timeout=10
+[workspace] $ /bin/sh -xe /tmp/jenkins8769748977391177512.sh
++ /var/jenkins_home/jmeter//bin/jmeter.sh -Jjmeter.save.saveservice.output_format=xml -n -t /var/jenkins_home/jmeter/bin/examples/jmeter-sop-test.jmx -l /var/jenkins_home/jmeter/bin/TestResult1.jtl
+Apr 08, 2018 6:10:24 PM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using /var/jenkins_home/jmeter/bin/examples/jmeter-sop-test.jmx
+Starting the test @ Sun Apr 08 18:10:26 UTC 2018 (1523211026572)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary =    300 in 00:00:10 =   29.9/s Avg:  1399 Min:     8 Max:  7691 Err:   300 (100.00%)
+Tidying up ...    @ Sun Apr 08 18:10:39 UTC 2018 (1523211039395)
+... end of run
+Performance: Recording JMeter reports '/var/jenkins_home/jobs/Dynamisch-testen/builds/14/temp/TestResult1.jtl'
+Performance: Parsing JMeter report file '/var/jenkins_home/jobs/Dynamisch-testen/builds/14/performance-reports/JMeter/TestResult1.jtl'.
+Performance: No threshold configured for making the test unstable
+Performance: No threshold configured for making the test failure
+Performance: File TestResult1.jtl reported 74.813% of errors [SUCCESS]. Build status is: SUCCESS
+Finished: SUCCESS

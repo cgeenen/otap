@@ -1,0 +1,57 @@
+[workspace] Running shell script
++ mvn -s /var/jenkins_home/jobs/Test/workspace@tmp/config1377550715004189116tmp deploy -DskipTests -Dartifactory_url=http://10.0.2.15:32784/artifactory/example-repo-local
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building sop 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.6:copy (default) @ sop ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sop ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/jobs/Test/workspace/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ sop ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sop ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/jobs/Test/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ sop ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ sop ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-war-plugin:2.3:war (default-war) @ sop ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [sop] in [/var/jenkins_home/jobs/Test/workspace/target/sop-1.0-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/jenkins_home/jobs/Test/workspace/src/main/webapp]
+[INFO] Webapp assembled in [47 msecs]
+[INFO] Building war: /var/jenkins_home/jobs/Test/workspace/target/sop-1.0-SNAPSHOT.war
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ sop ---
+[INFO] Installing /var/jenkins_home/jobs/Test/workspace/target/sop-1.0-SNAPSHOT.war to /var/jenkins_home/.m2/repository/com/fontys/sop/1.0-SNAPSHOT/sop-1.0-SNAPSHOT.war
+[INFO] Installing /var/jenkins_home/jobs/Test/workspace/pom.xml to /var/jenkins_home/.m2/repository/com/fontys/sop/1.0-SNAPSHOT/sop-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-deploy-plugin:2.7:deploy (default-deploy) @ sop ---
+Downloading from artifactory: http://10.0.2.15:32784/artifactory/example-repo-local/com/fontys/sop/1.0-SNAPSHOT/maven-metadata.xml
+Uploading to artifactory: http://10.0.2.15:32784/artifactory/example-repo-local/com/fontys/sop/1.0-SNAPSHOT/sop-1.0-20180408.131734-1.war
+Progress (1): 2.0/3.6 kBProgress (1): 3.6 kB                        Uploaded to artifactory: http://10.0.2.15:32784/artifactory/example-repo-local/com/fontys/sop/1.0-SNAPSHOT/sop-1.0-20180408.131734-1.war (3.6 kB at 9.1 kB/s)
+Uploading to artifactory: http://10.0.2.15:32784/artifactory/example-repo-local/com/fontys/sop/1.0-SNAPSHOT/sop-1.0-20180408.131734-1.pom
+Progress (1): 2.0/3.5 kBProgress (1): 3.5 kB                        Uploaded to artifactory: http://10.0.2.15:32784/artifactory/example-repo-local/com/fontys/sop/1.0-SNAPSHOT/sop-1.0-20180408.131734-1.pom (3.5 kB at 49 kB/s)
+Downloading from artifactory: http://10.0.2.15:32784/artifactory/example-repo-local/com/fontys/sop/maven-metadata.xml
+Uploading to artifactory: http://10.0.2.15:32784/artifactory/example-repo-local/com/fontys/sop/1.0-SNAPSHOT/maven-metadata.xml
+Progress (1): 757 B                   Uploaded to artifactory: http://10.0.2.15:32784/artifactory/example-repo-local/com/fontys/sop/1.0-SNAPSHOT/maven-metadata.xml (757 B at 14 kB/s)
+Uploading to artifactory: http://10.0.2.15:32784/artifactory/example-repo-local/com/fontys/sop/maven-metadata.xml
+Progress (1): 271 B                   Uploaded to artifactory: http://10.0.2.15:32784/artifactory/example-repo-local/com/fontys/sop/maven-metadata.xml (271 B at 6.3 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.191 s
+[INFO] Finished at: 2018-04-08T13:17:34Z
+[INFO] Final Memory: 20M/259M
+[INFO] ------------------------------------------------------------------------

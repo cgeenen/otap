@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="76" it="0" lt="0" ct="75" ts="1523206224563" s="false" lb="HTTP Request Home" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused (Connection refused)" tn="Thread Group 1-1" dt="text" by="2058" sby="0" ng="1" na="1"/>
+
+<httpSample t="56" it="0" lt="0" ct="56" ts="1523206590463" s="false" lb="HTTP Request Home" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused (Connection refused)" tn="Thread Group 1-1" dt="text" by="2058" sby="0" ng="1" na="1"/>
+
+<httpSample t="111" it="0" lt="0" ct="110" ts="1523206836246" s="false" lb="HTTP Request" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused (Connection refused)" tn="Thread Group 1-1" dt="text" by="2058" sby="0" ng="1" na="1"/>
+
+<httpSample t="77" it="0" lt="0" ct="77" ts="1523206976689" s="false" lb="HTTP Request" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused (Connection refused)" tn="Thread Group 1-1" dt="text" by="2058" sby="0" ng="1" na="1"/>
+
+<httpSample t="68" it="0" lt="0" ct="67" ts="1523207256675" s="false" lb="HTTP Request" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused (Connection refused)" tn="Thread Group 1-1" dt="text" by="2058" sby="0" ng="1" na="1"/>
+
+<httpSample t="107" it="0" lt="107" ct="76" ts="1523207842759" s="false" lb="HTTP Request" rc="404" rm="" tn="Thread Group 1-1" dt="text" by="1224" sby="131" ng="1" na="1"/>
+
+<httpSample t="104" it="0" lt="99" ct="70" ts="1523207996038" s="true" lb="HTTP Request" rc="200" rm="" tn="Thread Group 1-1" dt="text" by="528" sby="263" ng="1" na="1">
+  <httpSample t="99" it="0" lt="99" ct="70" ts="1523207996038" s="true" lb="http://10.0.2.15:8888/AcceptatieSop" rc="302" rm="" tn="Thread Group 1-1" dt="" by="114" sby="131" ng="1" na="1"/>
+  <httpSample t="5" it="0" lt="5" ct="0" ts="1523207996137" s="true" lb="http://10.0.2.15:8888/AcceptatieSop/" rc="200" rm="" tn="Thread Group 1-1" dt="text" by="414" sby="132" ng="1" na="1"/>
+</httpSample>
+
+</testResults>

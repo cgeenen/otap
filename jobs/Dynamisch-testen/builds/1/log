@@ -1,0 +1,23 @@
+Started by an SCM change
+Building in workspace /var/jenkins_home/jobs/Dynamisch-testen/workspace
+Cloning the remote Git repository
+Cloning repository https://github.com/cgeenen/sop.git
+ > git init /var/jenkins_home/jobs/Dynamisch-testen/workspace # timeout=10
+Fetching upstream changes from https://github.com/cgeenen/sop.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress https://github.com/cgeenen/sop.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/cgeenen/sop.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/cgeenen/sop.git # timeout=10
+Fetching upstream changes from https://github.com/cgeenen/sop.git
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress https://github.com/cgeenen/sop.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision d2be6a1e4dfd3229400a5624cf56896561bd7b10 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d2be6a1e4dfd3229400a5624cf56896561bd7b10
+Commit message: "Merge branch 'master' of https://github.com/cgeenen/sop"
+First time build. Skipping changelog.
+Finished: SUCCESS

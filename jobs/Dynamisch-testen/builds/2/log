@@ -1,0 +1,25 @@
+Started by an SCM change
+Building in workspace /var/jenkins_home/jobs/Dynamisch-testen/workspace
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/cgeenen/sop.git # timeout=10
+Fetching upstream changes from https://github.com/cgeenen/sop.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress https://github.com/cgeenen/sop.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 257a7729e76055712da1ea72d5027263cd96bb45 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 257a7729e76055712da1ea72d5027263cd96bb45
+Commit message: "added jmeter to pipeline"
+ > git rev-list --no-walk d2be6a1e4dfd3229400a5624cf56896561bd7b10 # timeout=10
+Performance test: Checking global bzt installation...
+[workspace] $ bzt --help
+Performance test: You don't have global bzt installed on this Jenkins host. Installing it globally will speed up job. Run 'sudo pip install bzt' to install it.
+Performance test: Checking virtualenv tool availability...
+[workspace] $ virtualenv --help
+Performance test: No virtualenv found on this Jenkins host. Install it with 'sudo pip install virtualenv'.
+Cannot run program "virtualenv" (in directory "/var/jenkins_home/jobs/Dynamisch-testen/workspace"): error=2, No such file or directoryBuild step 'Run Performance Test' changed build result to FAILURE
+Performance: Recording JMeter reports '**/*.jtl'
+Finished: FAILURE

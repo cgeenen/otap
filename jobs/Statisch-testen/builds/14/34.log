@@ -1,0 +1,111 @@
+[workspace] Running shell script
++ mvn -U clean test cobertura:cobertura -Dcobertura.report.format=xml
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Progress (1): 2.1/14 kBProgress (1): 4.9/14 kBProgress (2): 4.9/14 kB | 2.1/20 kBProgress (2): 7.7/14 kB | 2.1/20 kBProgress (2): 7.7/14 kB | 4.9/20 kBProgress (2): 10/14 kB | 4.9/20 kB Progress (2): 10/14 kB | 7.7/20 kBProgress (2): 10/14 kB | 10/20 kB Progress (2): 10/14 kB | 13/20 kBProgress (2): 13/14 kB | 13/20 kBProgress (2): 14 kB | 13/20 kB   Progress (2): 14 kB | 16/20 kBProgress (2): 14 kB | 19/20 kBProgress (2): 14 kB | 20 kB                              Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 9.2 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (20 kB at 14 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/cobertura-maven-plugin/maven-metadata.xml
+Progress (1): 605 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/cobertura-maven-plugin/maven-metadata.xml (605 B at 12 kB/s)
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building sop 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ sop ---
+[INFO] Deleting /var/jenkins_home/jobs/Test/workspace/target
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.6:copy (default) @ sop ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sop ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/jobs/Test/workspace/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ sop ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/jenkins_home/jobs/Test/workspace/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sop ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/jobs/Test/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ sop ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/jenkins_home/jobs/Test/workspace/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ sop ---
+[INFO] Surefire report directory: /var/jenkins_home/jobs/Test/workspace/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.fontys.sop.textTest
+getText
+setText
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.224 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] >>> cobertura-maven-plugin:2.7:cobertura (default-cli) > [cobertura]test @ sop >>>
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.6:copy (default) @ sop ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sop ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/jobs/Test/workspace/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ sop ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.7:instrument (default-cli) @ sop ---
+[INFO] Cobertura 2.1.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+[INFO] Cobertura: Saved information on 1 classes.
+[INFO] Cobertura: Saved information on 1 classes.
+
+[INFO] Instrumentation was successful.
+[INFO] NOT adding cobertura ser file to attached artifacts list.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sop ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/jobs/Test/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ sop ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ sop ---
+[INFO] Surefire report directory: /var/jenkins_home/jobs/Test/workspace/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.fontys.sop.textTest
+getText
+setText
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.901 sec
+[INFO] Cobertura: Loaded information on 1 classes.
+[INFO] Cobertura: Saved information on 1 classes.
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] <<< cobertura-maven-plugin:2.7:cobertura (default-cli) < [cobertura]test @ sop <<<
+[INFO] 
+[INFO] 
+[INFO] --- cobertura-maven-plugin:2.7:cobertura (default-cli) @ sop ---
+[INFO] Cobertura 2.1.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+[INFO] Cobertura: Loaded information on 1 classes.
+Report time: 548ms
+
+[INFO] Cobertura Report generation was successful.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 24.085 s
+[INFO] Finished at: 2018-04-08T13:18:07Z
+[INFO] Final Memory: 28M/185M
+[INFO] ------------------------------------------------------------------------

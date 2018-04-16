@@ -1,0 +1,33 @@
+Started by upstream project "[8mha:////4LwW3XpT5iTY2NiMZ3zunDyW/RaHOCjVHNVR3bkplvvrAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JH2n0sycFH0Ahtvdn8AAAAA=[0mBuild" build number [8mha:////4CPv34OrwkCaHgQc0rzZeL1gIoMm/rqerA41z4eLl1h3AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZe/az8JH2n0sycFH0jYwApu/G3wgAAAA==[0m23
+originally caused by:
+ Started by user [8mha:////4P0s+HbZU3HT9W2G8bHgzZ2l/rO6phxQxMUC1J2BZ3IAAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /var/jenkins_home/jobs/Dynamisch-testen/workspace
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/cgeenen/sop.git # timeout=10
+Fetching upstream changes from https://github.com/cgeenen/sop.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress https://github.com/cgeenen/sop.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision fa87cd15ac96534094622ac42ca50d7ed42ff417 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fa87cd15ac96534094622ac42ca50d7ed42ff417
+Commit message: "Merge origin/master"
+ > git rev-list --no-walk fa87cd15ac96534094622ac42ca50d7ed42ff417 # timeout=10
+[workspace] $ /bin/sh -xe /tmp/jenkins5983085994127580490.sh
++ /var/jenkins_home/jmeter//bin/jmeter.sh -Jjmeter.save.saveservice.output_format=xml -n -t /var/jenkins_home/jmeter/bin/examples/jmeter-sop-test.jmx -l /var/jenkins_home/jmeter/bin/TestResult1.jtl
+Creating summariser <summary>
+Created the tree successfully using /var/jenkins_home/jmeter/bin/examples/jmeter-sop-test.jmx
+Starting the test @ Sun Apr 08 18:26:35 UTC 2018 (1523211995382)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary =    300 in 00:00:01 =  200.1/s Avg:    44 Min:     1 Max:   247 Err:     0 (0.00%)
+Tidying up ...    @ Sun Apr 08 18:26:37 UTC 2018 (1523211997803)
+... end of run
+Performance: Recording JMeter reports '/var/jenkins_home/jobs/Dynamisch-testen/builds/18/temp/TestResult1.jtl'
+Performance: Parsing JMeter report file '/var/jenkins_home/jobs/Dynamisch-testen/builds/18/performance-reports/JMeter/TestResult1.jtl'.
+Performance: No threshold configured for making the test unstable
+Performance: No threshold configured for making the test failure
+Performance: File TestResult1.jtl reported 18.738% of errors [SUCCESS]. Build status is: SUCCESS
+Finished: SUCCESS

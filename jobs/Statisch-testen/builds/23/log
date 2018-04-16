@@ -1,0 +1,374 @@
+Started by upstream project "[8mha:////4PZ1NO09JfkEn8VfBv7dcgCXl0SUOelxbcTlmSURi6xhAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JH2n0sycFH0Ahtvdn8AAAAA=[0mBuild" build number [8mha:////4GhGQFnayyOv9MAJeUhipiVwh3vK89XFQrgcUuaXCFYvAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZe/az8JH2n0sycFH1DCwBiMQ4LwgAAAA==[0m18
+originally caused by:
+ Started by user [8mha:////4LsMa+DS8vHhlrM5sZaiomwu7kgkj3kNOfGAVNkVKqqeAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Obtained Jenkinsfile from git git@github.com:cgeenen/sop.git
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4O4/3e2FdlIF4uzcgVrI++GrgwN6XMDcSHUxIRhLchp2AAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/jobs/Test/workspace
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:cgeenen/sop.git # timeout=10
+Fetching upstream changes from git@github.com:cgeenen/sop.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress git@github.com:cgeenen/sop.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 7b7e278b521d8d210ff632e8bd62c722020e17f5 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7b7e278b521d8d210ff632e8bd62c722020e17f5
+Commit message: "removed jmeter steps"
+ > git rev-list --no-walk 7b7e278b521d8d210ff632e8bd62c722020e17f5 # timeout=10
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] tool
+Unpacking file:/var/jenkins_home/downloads/jdk-8u144-linux-x64.tar.gz to /var/jenkins_home/tools/hudson.model.JDK/jdk8 on Jenkins
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] tool
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Test and SonarQube parallel)
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] tool
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] tool
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] parallel
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [test] { (Branch: test)
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [sonar] { (Branch: sonar)
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [test] sh
+[test] [workspace] Running shell script
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [sonar] sh
+[sonar] [workspace] Running shell script
+[test] + mvn -U clean test cobertura:cobertura -Dcobertura.report.format=xml
+[sonar] + mvn sonar:sonar -Dsonar.host.url=http://10.0.2.15:32788
+[test] [INFO] Scanning for projects...
+[sonar] [INFO] Scanning for projects...
+[sonar] [INFO] 
+[sonar] [INFO] ------------------------------------------------------------------------
+[sonar] [INFO] Building sop 1.0-SNAPSHOT
+[sonar] [INFO] ------------------------------------------------------------------------
+[sonar] [INFO] 
+[sonar] [INFO] --- sonar-maven-plugin:3.4.0.905:sonar (default-cli) @ sop ---
+[test] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+[test] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+[test] Progress (1): 2.1/20 kBProgress (2): 2.1/20 kB | 2.1/14 kBProgress (2): 2.1/20 kB | 4.9/14 kBProgress (2): 2.1/20 kB | 7.7/14 kBProgress (2): 2.1/20 kB | 10/14 kB Progress (2): 2.1/20 kB | 13/14 kBProgress (2): 2.1/20 kB | 14 kB   Progress (2): 4.9/20 kB | 14 kBProgress (2): 7.7/20 kB | 14 kBProgress (2): 10/20 kB | 14 kB Progress (2): 13/20 kB | 14 kBProgress (2): 16/20 kB | 14 kBProgress (2): 19/20 kB | 14 kBProgress (2): 20 kB | 14 kB                              Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 10.0 kB/s)
+[test] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (20 kB at 14 kB/s)
+[test] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/cobertura-maven-plugin/maven-metadata.xml
+[test] Progress (1): 605 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/cobertura-maven-plugin/maven-metadata.xml (605 B at 13 kB/s)
+[sonar] [INFO] User cache: /var/jenkins_home/.sonar/cache
+[test] [INFO] 
+[test] [INFO] ------------------------------------------------------------------------
+[test] [INFO] Building sop 1.0-SNAPSHOT
+[test] [INFO] ------------------------------------------------------------------------
+[test] [INFO] 
+[test] [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ sop ---
+[test] [INFO] Deleting /var/jenkins_home/jobs/Test/workspace/target
+[test] [INFO] 
+[test] [INFO] --- maven-dependency-plugin:2.6:copy (default) @ sop ---
+[sonar] [INFO] SonarQube version: 6.3.1
+[sonar] [INFO] Default locale: "en", source code encoding: "UTF-8"
+[sonar] [INFO] Load global settings
+[sonar] [INFO] Load global settings (done) | time=385ms
+[sonar] [INFO] User cache: /var/jenkins_home/.sonar/cache
+[test] [INFO] 
+[test] [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sop ---
+[test] [INFO] Using 'UTF-8' encoding to copy filtered resources.
+[test] [INFO] skip non existing resourceDirectory /var/jenkins_home/jobs/Test/workspace/src/main/resources
+[test] [INFO] 
+[test] [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ sop ---
+[test] [INFO] Changes detected - recompiling the module!
+[test] [INFO] Compiling 1 source file to /var/jenkins_home/jobs/Test/workspace/target/classes
+[sonar] [INFO] Load plugins index
+[sonar] [INFO] Load plugins index (done) | time=25ms
+[sonar] [INFO] Download sonar-python-plugin-1.7.0.1195.jar
+[sonar] [INFO] Download sonar-csharp-plugin-5.7.0.612.jar
+[sonar] [INFO] Download sonar-java-plugin-4.5.0.8398.jar
+[sonar] [INFO] Download sonar-flex-plugin-2.3.jar
+[sonar] [INFO] Download sonar-scm-git-plugin-1.2.jar
+[sonar] [INFO] Download sonar-php-plugin-2.9.2.1744.jar
+[sonar] [INFO] Download sonar-scm-svn-plugin-1.4.0.522.jar
+[test] [INFO] 
+[test] [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sop ---
+[test] [INFO] Using 'UTF-8' encoding to copy filtered resources.
+[test] [INFO] skip non existing resourceDirectory /var/jenkins_home/jobs/Test/workspace/src/test/resources
+[test] [INFO] 
+[test] [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ sop ---
+[test] [INFO] Changes detected - recompiling the module!
+[test] [INFO] Compiling 1 source file to /var/jenkins_home/jobs/Test/workspace/target/test-classes
+[sonar] [INFO] Download sonar-javascript-plugin-2.20.0.4207.jar
+[test] [INFO] 
+[test] [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ sop ---
+[test] [INFO] Surefire report directory: /var/jenkins_home/jobs/Test/workspace/target/surefire-reports
+[test] 
+[test] -------------------------------------------------------
+[test]  T E S T S
+[test] -------------------------------------------------------
+[test] Running com.fontys.sop.textTest
+[test] getText
+[test] setText
+[test] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.367 sec
+[test] 
+[test] Results :
+[test] 
+[test] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[test] 
+[test] [INFO] 
+[test] [INFO] >>> cobertura-maven-plugin:2.7:cobertura (default-cli) > [cobertura]test @ sop >>>
+[test] [INFO] 
+[test] [INFO] --- maven-dependency-plugin:2.6:copy (default) @ sop ---
+[test] [INFO] 
+[test] [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sop ---
+[test] [INFO] Using 'UTF-8' encoding to copy filtered resources.
+[test] [INFO] skip non existing resourceDirectory /var/jenkins_home/jobs/Test/workspace/src/main/resources
+[test] [INFO] 
+[test] [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ sop ---
+[test] [INFO] Nothing to compile - all classes are up to date
+[test] [INFO] 
+[test] [INFO] --- cobertura-maven-plugin:2.7:instrument (default-cli) @ sop ---
+[sonar] [INFO] Process project properties
+[sonar] [INFO] Load project repositories
+[sonar] [INFO] Load project repositories (done) | time=114ms
+[sonar] [INFO] Load quality profiles
+[sonar] [INFO] Load quality profiles (done) | time=468ms
+[sonar] [INFO] Load active rules
+[test] [INFO] Cobertura 2.1.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+[test] [INFO] Cobertura: Saved information on 1 classes.
+[test] [INFO] Cobertura: Saved information on 1 classes.
+[test] 
+[test] [INFO] Instrumentation was successful.
+[test] [INFO] NOT adding cobertura ser file to attached artifacts list.
+[test] [INFO] 
+[test] [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sop ---
+[test] [INFO] Using 'UTF-8' encoding to copy filtered resources.
+[test] [INFO] skip non existing resourceDirectory /var/jenkins_home/jobs/Test/workspace/src/test/resources
+[test] [INFO] 
+[test] [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ sop ---
+[test] [INFO] Nothing to compile - all classes are up to date
+[test] [INFO] 
+[test] [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ sop ---
+[test] [INFO] Surefire report directory: /var/jenkins_home/jobs/Test/workspace/target/surefire-reports
+[test] 
+[test] -------------------------------------------------------
+[test]  T E S T S
+[test] -------------------------------------------------------
+[test] Running com.fontys.sop.textTest
+[test] getText
+[sonar] [INFO] Load active rules (done) | time=3508ms
+[sonar] [INFO] Load metrics repository
+[sonar] [INFO] Load metrics repository (done) | time=489ms
+[sonar] [INFO] Publish mode
+[sonar] [INFO] Project key: com.fontys:sop
+[sonar] [INFO] -------------  Scan sop
+[sonar] [INFO] Load server rules
+[sonar] [INFO] Load server rules (done) | time=486ms
+[test] setText
+[test] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.302 sec
+[test] [INFO] Cobertura: Loaded information on 1 classes.
+[test] [INFO] Cobertura: Saved information on 1 classes.
+[test] 
+[test] Results :
+[test] 
+[test] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[test] 
+[test] [INFO] 
+[test] [INFO] <<< cobertura-maven-plugin:2.7:cobertura (default-cli) < [cobertura]test @ sop <<<
+[test] [INFO] 
+[test] [INFO] 
+[test] [INFO] --- cobertura-maven-plugin:2.7:cobertura (default-cli) @ sop ---
+[sonar] [INFO] Initializer GenericCoverageSensor
+[sonar] [INFO] Initializer GenericCoverageSensor (done) | time=0ms
+[sonar] [INFO] Base dir: /var/jenkins_home/jobs/Test/workspace
+[sonar] [INFO] Working dir: /var/jenkins_home/jobs/Test/workspace/target/sonar
+[sonar] [INFO] Source paths: src/main/webapp, pom.xml, src/main/java
+[sonar] [INFO] Test paths: src/test/java
+[sonar] [INFO] Source encoding: UTF-8, default locale: en
+[sonar] [INFO] Index files
+[sonar] [INFO] 5 files indexed
+[sonar] [INFO] Quality profile for java: Sonar way
+[test] [INFO] Cobertura 2.1.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+[test] [INFO] Cobertura: Loaded information on 1 classes.
+[test] Report time: 368ms
+[test] 
+[test] [INFO] Cobertura Report generation was successful.
+[test] [INFO] ------------------------------------------------------------------------
+[test] [INFO] BUILD SUCCESS
+[test] [INFO] ------------------------------------------------------------------------
+[test] [INFO] Total time: 30.754 s
+[test] [INFO] Finished at: 2018-04-08T16:55:34Z
+[test] [INFO] Final Memory: 25M/108M
+[test] [INFO] ------------------------------------------------------------------------
+[sonar] [INFO] Sensor JavaSquidSensor [java]
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [test] }
+[sonar] [INFO] Configured Java source version (sonar.java.source): 7
+[sonar] [INFO] JavaClasspath initialization
+[sonar] [INFO] JavaClasspath initialization (done) | time=35ms
+[sonar] [INFO] JavaTestClasspath initialization
+[sonar] [INFO] JavaTestClasspath initialization (done) | time=2ms
+[sonar] [INFO] Java Main Files AST scan
+[sonar] [INFO] 1 source files to be analyzed
+[sonar] [INFO] Java Main Files AST scan (done) | time=531ms
+[sonar] [INFO] Java Test Files AST scan
+[sonar] [INFO] 1 source files to be analyzed
+[sonar] [INFO] 1/1 source files have been analyzed
+[sonar] [INFO] 1/1 source files have been analyzed
+[sonar] [INFO] Java Test Files AST scan (done) | time=91ms
+[sonar] [INFO] Sensor JavaSquidSensor [java] (done) | time=1738ms
+[sonar] [INFO] Sensor NoSonar Sensor [php]
+[sonar] [INFO] Sensor NoSonar Sensor [php] (done) | time=0ms
+[sonar] [INFO] Sensor Coverage Report Import [csharp]
+[sonar] [INFO] Sensor Coverage Report Import [csharp] (done) | time=0ms
+[sonar] [INFO] Sensor Coverage Report Import [csharp]
+[sonar] [INFO] Sensor Coverage Report Import [csharp] (done) | time=0ms
+[sonar] [INFO] Sensor Unit Test Results Import [csharp]
+[sonar] [INFO] Sensor Unit Test Results Import [csharp] (done) | time=0ms
+[sonar] [INFO] Sensor SurefireSensor [java]
+[sonar] [INFO] parsing /var/jenkins_home/jobs/Test/workspace/target/surefire-reports
+[sonar] [INFO] Sensor SurefireSensor [java] (done) | time=178ms
+[sonar] [INFO] Sensor JaCoCoSensor [java]
+[sonar] [INFO] Sensor JaCoCoSensor [java] (done) | time=1ms
+[sonar] [INFO] Sensor XmlFileSensor [java]
+[sonar] [INFO] 2 source files to be analyzed
+[sonar] [INFO] 2/2 source files have been analyzed
+[sonar] [INFO] Sensor XmlFileSensor [java] (done) | time=694ms
+[sonar] [INFO] Sensor Analyzer for "php.ini" files [php]
+[sonar] [INFO] Sensor Analyzer for "php.ini" files [php] (done) | time=6ms
+[sonar] [INFO] Sensor Zero Coverage Sensor
+[sonar] [INFO] Sensor Zero Coverage Sensor (done) | time=29ms
+[sonar] [INFO] Sensor Code Colorizer Sensor
+[sonar] [INFO] Sensor Code Colorizer Sensor (done) | time=1ms
+[sonar] [INFO] Sensor CPD Block Indexer
+[sonar] [INFO] org.sonar.scanner.cpd.deprecated.JavaCpdBlockIndexer@78508e6b is used for java
+[sonar] [INFO] Sensor CPD Block Indexer (done) | time=42ms
+[sonar] [INFO] SCM provider for this project is: git
+[sonar] [INFO] 2 files to be analyzed
+[sonar] [INFO] 2/2 files analyzed
+[sonar] [INFO] Calculating CPD for 1 files
+[sonar] [INFO] CPD calculation finished
+[sonar] [INFO] Analysis report generated in 204ms, dir size=26 KB
+[sonar] [INFO] Analysis reports compressed in 21ms, zip size=10 KB
+[sonar] [INFO] Analysis report uploaded in 673ms
+[sonar] [INFO] ANALYSIS SUCCESSFUL, you can browse http://10.0.2.15:32788/dashboard/index/com.fontys:sop
+[sonar] [INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[sonar] [INFO] More about the report processing at http://10.0.2.15:32788/api/ce/task?id=AWKmL0VGhug19eLcq4k4
+[sonar] [INFO] Task total time: 19.447 s
+[sonar] [INFO] ------------------------------------------------------------------------
+[sonar] [INFO] BUILD SUCCESS
+[sonar] [INFO] ------------------------------------------------------------------------
+[sonar] [INFO] Total time: 35.396 s
+[sonar] [INFO] Finished at: 2018-04-08T16:55:38Z
+[sonar] [INFO] Final Memory: 27M/236M
+[sonar] [INFO] ------------------------------------------------------------------------
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] [sonar] }
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // parallel
+Post stage
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] junit
+Recording test results
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] cobertura
+[Cobertura] Publishing Cobertura coverage report...
+
+[Cobertura] Publishing Cobertura coverage results...
+
+[Cobertura] Cobertura coverage report found.
+
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Deploy to artifactory)
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] tool
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] tool
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] configFileProvider
+provisioning config files...
+copy managed file [myMavenConfig for jenkins automation example] to file:/var/jenkins_home/jobs/Test/workspace@tmp/config3187818217842704047tmp
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[workspace] Running shell script
++ mvn -s /var/jenkins_home/jobs/Test/workspace@tmp/config3187818217842704047tmp deploy -DskipTests -Dartifactory_url=http://10.0.2.15:32789/artifactory/example-repo-local
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building sop 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.6:copy (default) @ sop ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sop ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/jobs/Test/workspace/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ sop ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sop ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/jobs/Test/workspace/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ sop ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ sop ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-war-plugin:2.3:war (default-war) @ sop ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [sop] in [/var/jenkins_home/jobs/Test/workspace/target/sop-1.0-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/jenkins_home/jobs/Test/workspace/src/main/webapp]
+[INFO] Webapp assembled in [46 msecs]
+[INFO] Building war: /var/jenkins_home/jobs/Test/workspace/target/sop-1.0-SNAPSHOT.war
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ sop ---
+[INFO] Installing /var/jenkins_home/jobs/Test/workspace/target/sop-1.0-SNAPSHOT.war to /var/jenkins_home/.m2/repository/com/fontys/sop/1.0-SNAPSHOT/sop-1.0-SNAPSHOT.war
+[INFO] Installing /var/jenkins_home/jobs/Test/workspace/pom.xml to /var/jenkins_home/.m2/repository/com/fontys/sop/1.0-SNAPSHOT/sop-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-deploy-plugin:2.7:deploy (default-deploy) @ sop ---
+Downloading from artifactory: http://10.0.2.15:32789/artifactory/example-repo-local/com/fontys/sop/1.0-SNAPSHOT/maven-metadata.xml
+Uploading to artifactory: http://10.0.2.15:32789/artifactory/example-repo-local/com/fontys/sop/1.0-SNAPSHOT/sop-1.0-20180408.165552-1.war
+Progress (1): 2.0/3.6 kBProgress (1): 3.6 kB                        Uploaded to artifactory: http://10.0.2.15:32789/artifactory/example-repo-local/com/fontys/sop/1.0-SNAPSHOT/sop-1.0-20180408.165552-1.war (3.6 kB at 7.6 kB/s)
+Uploading to artifactory: http://10.0.2.15:32789/artifactory/example-repo-local/com/fontys/sop/1.0-SNAPSHOT/sop-1.0-20180408.165552-1.pom
+Progress (1): 2.0/3.5 kBProgress (1): 3.5 kB                        Uploaded to artifactory: http://10.0.2.15:32789/artifactory/example-repo-local/com/fontys/sop/1.0-SNAPSHOT/sop-1.0-20180408.165552-1.pom (3.5 kB at 43 kB/s)
+Downloading from artifactory: http://10.0.2.15:32789/artifactory/example-repo-local/com/fontys/sop/maven-metadata.xml
+Uploading to artifactory: http://10.0.2.15:32789/artifactory/example-repo-local/com/fontys/sop/1.0-SNAPSHOT/maven-metadata.xml
+Progress (1): 757 B                   Uploaded to artifactory: http://10.0.2.15:32789/artifactory/example-repo-local/com/fontys/sop/1.0-SNAPSHOT/maven-metadata.xml (757 B at 15 kB/s)
+Uploading to artifactory: http://10.0.2.15:32789/artifactory/example-repo-local/com/fontys/sop/maven-metadata.xml
+Progress (1): 271 B                   Uploaded to artifactory: http://10.0.2.15:32789/artifactory/example-repo-local/com/fontys/sop/maven-metadata.xml (271 B at 5.5 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.136 s
+[INFO] Finished at: 2018-04-08T16:55:52Z
+[INFO] Final Memory: 20M/258M
+[INFO] ------------------------------------------------------------------------
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+Deleting 1 temporary files
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // configFileProvider
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4KyjXfb5Q2xcTCFCmsznzpgovEfWztd04zfyv0ZqjhiCAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

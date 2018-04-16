@@ -1,0 +1,11 @@
+commit f30f0af66ca992cac865c0db741cde94bcd163e3
+tree 739d4ff3fa96996aff6bf05a2e7b4c5e335902b0
+parent c4eb674da7289b573bd74ea1d2ca61880d30c239
+author Cornee Geenen <jacos@live.nl> 2018-04-08 20:00:38 +0200
+committer Cornee Geenen <jacos@live.nl> 2018-04-08 20:00:38 +0200
+
+    added detail page
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 ff841a652312431c4a342014bee9b0650e091dab A	src/main/webapp/detail.html

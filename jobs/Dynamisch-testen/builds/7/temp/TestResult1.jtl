@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="76" it="0" lt="0" ct="75" ts="1523206224563" s="false" lb="HTTP Request Home" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused (Connection refused)" tn="Thread Group 1-1" dt="text" by="2058" sby="0" ng="1" na="1"/>
+
+<httpSample t="56" it="0" lt="0" ct="56" ts="1523206590463" s="false" lb="HTTP Request Home" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused (Connection refused)" tn="Thread Group 1-1" dt="text" by="2058" sby="0" ng="1" na="1"/>
+
+<httpSample t="111" it="0" lt="0" ct="110" ts="1523206836246" s="false" lb="HTTP Request" rc="Non HTTP response code: java.net.ConnectException" rm="Non HTTP response message: Connection refused (Connection refused)" tn="Thread Group 1-1" dt="text" by="2058" sby="0" ng="1" na="1"/>
+
+</testResults>

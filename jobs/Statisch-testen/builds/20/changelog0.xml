@@ -1,0 +1,22 @@
+commit 4072d71532c0af5809a7450f9d85529a4b284459
+tree 8de37d3f2e60dfa84d66b6528d2f6c9f88cd3f05
+parent 257a7729e76055712da1ea72d5027263cd96bb45
+author Cornee Geenen <jacos@live.nl> 2018-04-08 17:26:23 +0200
+committer Cornee Geenen <jacos@live.nl> 2018-04-08 17:26:23 +0200
+
+    added steps to stages
+
+
+
+:100644 100644 f7417caff08dfdd673f6608be6e77e45bae04393 223e251727e54688d3aef51b72afe79a5492ec61 M	Jenkinsfile
+commit 257a7729e76055712da1ea72d5027263cd96bb45
+tree c1503a0d9ef4458c08db75536954e69b63abb494
+parent d2be6a1e4dfd3229400a5624cf56896561bd7b10
+author Cornee Geenen <jacos@live.nl> 2018-04-08 17:23:05 +0200
+committer Cornee Geenen <jacos@live.nl> 2018-04-08 17:23:05 +0200
+
+    added jmeter to pipeline
+
+
+
+:100644 100644 3dc8418083d35488edfccf7e2d0df20efd86abcb f7417caff08dfdd673f6608be6e77e45bae04393 M	Jenkinsfile

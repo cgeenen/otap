@@ -1,0 +1,7 @@
+Performance test: Checking global bzt installation...
+[workspace] $ bzt --help
+Performance test: You don't have global bzt installed on this Jenkins host. Installing it globally will speed up job. Run 'sudo pip install bzt' to install it.
+Performance test: Checking virtualenv tool availability...
+[workspace] $ virtualenv --help
+Performance test: No virtualenv found on this Jenkins host. Install it with 'sudo pip install virtualenv'.
+Cannot run program "virtualenv" (in directory "/var/jenkins_home/jobs/Test/workspace"): error=2, No such file or directory
